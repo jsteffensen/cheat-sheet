@@ -1,4 +1,4 @@
-# herku-cheat-sheet
+# heroku-cheat-sheet
 
 Link dir to existing app:
 
