@@ -1,10 +1,10 @@
 # heroku-cheat-sheet
 
-Link dir to existing app:
+###### Link dir to existing app:
 
 `heroku git:remote -a project`
 
-Enable labs:
+###### Enable labs:
 
 `heroku labs:enable runtime-dyno-metadata`
 
@@ -17,7 +17,7 @@ HEROKU_SLUG_COMMIT:              2c3a0b24069af49b3de35b8e8c26765c1dba9ff0
 HEROKU_SLUG_DESCRIPTION:         Deploy 2c3a0b2
 ```
 
-Enable exec:
+###### Enable exec:
 
 `heroku ps:exec`
 
