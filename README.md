@@ -3,6 +3,7 @@
 ###### Link dir to existing app:
 
 `heroku git:remote -a project`
+
 ---
 ###### Enable labs:
 
@@ -34,4 +35,5 @@ When app is running, repeat:
 to see number of cores when in  exec mode:
 
 `grep -c processor /proc/cpuinfo`
+
 ---
