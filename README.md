@@ -25,6 +25,7 @@ HEROKU_SLUG_DESCRIPTION:         Deploy 2c3a0b2
 then
 
 `git commit -m "Heroku Exec" --allow-empty`
+
 `git push`
 
 then deploy app from  dashboard.
