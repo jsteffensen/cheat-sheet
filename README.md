@@ -1,6 +1,8 @@
-# heroku-cheat-sheet
+# Maven
+Start project from scratch:
+`mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.mycompany.app -DartifactId=my-app`
 
-
+# Heroku
 
 ## Link dir to existing app:
 
