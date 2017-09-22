@@ -1,6 +1,6 @@
 # Maven
-Start project from scratch:
-`mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.mycompany.app -DartifactId=my-app`
+Start project from scratch with package com.c2_systems.app containing App.java with public static void main( String[] args ):
+`mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.c2_systems.app -DartifactId=my-app`
 
 # Heroku
 
