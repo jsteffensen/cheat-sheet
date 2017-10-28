@@ -41,3 +41,34 @@ to see number of cores when in  exec mode:
 `grep -c processor /proc/cpuinfo`
 
 ---
+# Git
+
+## initialise a local project:
+Create repo via webinterface an copy url.
+then go to terminal:
+
+Initialise:
+
+`git init`
+
+add files:
+
+`git add .`
+
+Commit:
+
+`git commit -m "initial commit"`
+
+Set remote:
+
+`git remote add origin [repo url]`
+
+Verify url:
+
+`git remote -v`
+
+Push to remote:
+
+`git push origin master`
+
+
