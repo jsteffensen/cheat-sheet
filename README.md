@@ -6,7 +6,7 @@ Start project from scratch with package com.c2_systems.app containing App.java w
 
 ## Link dir to existing app:
 
-`heroku git:remote -a project`
+`heroku git:remote -a [project]`
 
 ## Enable labs:
 
