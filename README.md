@@ -62,5 +62,5 @@ Set remote:
 Verify url:
 `git remote -v`
 
-Push to remote:
-`git push origin master`
+Push to remote (wiping existing commit-history from display):
+`git push -u --force origin master`
