@@ -67,4 +67,5 @@ Push to remote (wiping existing commit-history from display):
 
 ## Reset to previous SHA commit:
 `git reset --hard [previous Commit SHA id here]`
+
 `git push origin master -f`
