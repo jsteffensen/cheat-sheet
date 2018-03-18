@@ -64,3 +64,7 @@ Verify url:
 
 Push to remote (wiping existing commit-history from display):
 `git push -u --force origin master`
+
+## Reset to previous SHA commit:
+`git reset --hard [previous Commit SHA id here]`
+`git push origin master -f`
