@@ -71,6 +71,12 @@ Push to remote (wiping existing commit-history from display):
 `git push origin master -f`
 
 ## Sync a fork
+Check that there is an upstream remote:
+`git remote -v`
+
+If there are only orgins in own forked repo, set an upstream:
+`git remote add upstream https://github.com/octocat/Spoon-Knife.git`
+
 Get upstream changes:
 `git fetch upstream`
 
