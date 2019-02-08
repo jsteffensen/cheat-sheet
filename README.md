@@ -69,3 +69,16 @@ Push to remote (wiping existing commit-history from display):
 `git reset --hard [previous Commit SHA id here]`
 
 `git push origin master -f`
+
+## Sync a fork
+Get upstream changes:
+`git fetch upstream`
+
+Switch to forked master:
+`git checkout master`
+
+Merge upstream into own fork:
+`git merge upstream/master`
+
+Push to own fork:
+`git push`
