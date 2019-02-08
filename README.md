@@ -80,10 +80,10 @@ If there are only orgins in own forked repo, set an upstream:
 Get upstream changes:
 `git fetch upstream`
 
-Switch to forked master:
+Switch to (own) master:
 `git checkout master`
 
-Merge upstream into own fork:
+Merge upstream into (own) fork:
 `git merge upstream/master`
 
 Push to own fork:
